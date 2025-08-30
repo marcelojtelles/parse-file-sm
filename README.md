@@ -57,10 +57,7 @@ Criar um padrão que consiga encontrar `<tag>`, `</tag>` e o texto no meio.
 *   **Entregável:** 
 Quatro arquivos de lista de tokens semelhante ao exemplo acima, dois válidos e dois inválidos:
 Um arquivo `lexer.py` com uma função `tokenize(text)`.
-Um arquivo `requirements.txt` com as bibliotecas utilizadas
-
-Um arquivo `readme.md` com instruções de como criar o ambiente virtual, ativar o ambiente, instalar bibliotecas exemplos de como rodar a função e 3 arquivos válidos e 3 arquivos inválidos.
-
+Um arquivo `readme.md` com instruções de como rodar e 3 arquivos .sm válidos e 3 inválidos.
 
 
 #### **Tarefa para o Grupo 2: O Analisador Sintático (Parser)**
@@ -80,15 +77,12 @@ Um arquivo `readme.md` com instruções de como criar o ambiente virtual, ativar
 *   **Técnica Utilizada:** Implementação direta de um **Autômato de Pilha**.
 *   **Entregável:** 
 Um arquivo `parser.py` com uma função `parse(tokens)` que retorna `True` (válido) ou `False` (inválido) e talvez uma mensagem de erro.
-Um arquivo `requirements.txt` com as bibliotecas utilizadas
-Um arquivo `readme.md` com instruções de como criar o ambiente virtual, ativar o ambiente, instalar bibliotecas exemplos de como rodar a função e 3 arquivos válidos e 3 arquivos inválidos.
-
-
+Um arquivo `readme.md` com instruções de como rodar e 3 exemplos de tokens válidos e 3 exemplos de tokens inválidos.
 
 
 #### **Tarefa para o Grupo 3: O projeto principal
 
-Depois que os grupos finalizarem suas partes, a integração é muito simples:
+Depois que os grupos finalizarem suas partes, a integração é simples, abaixo segue um exemplo:
 
 **Arquivo `main.py`:**
 ```python
